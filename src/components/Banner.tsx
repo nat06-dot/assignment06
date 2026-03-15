@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 export default function Banner() {
 
-    const covers = ['/img/banner1.png', '/img/banner2.png', '/img/banner3.png']
+    const covers = ['/img/banner1.jpg', '/img/banner2.png', '/img/banner3.png']
     const[index, setIdex] = useState(0)
 
     return (
